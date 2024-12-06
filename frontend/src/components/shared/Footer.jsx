@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Branding */}
           <div className="text-center md:text-left mb-6 md:mb-0">
-            <h2 className="text-2xl font-semibold text-gray-800">Job Hunt</h2>
+            <h2 className="text-2xl font-semibold text-gray-800">JobPortal</h2>
             <p className="text-sm text-gray-500">
               © {new Date().getFullYear()} Your Company. All rights reserved.
             </p>
@@ -16,25 +16,25 @@ const Footer = () => {
           {/* Navigation Links */}
           <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 text-sm">
             <a
-              href="/about"
+              href="/#"
               className="text-gray-600 hover:text-gray-800 transition"
             >
               About Us
             </a>
             <a
-              href="/contact"
+              href="/#"
               className="text-gray-600 hover:text-gray-800 transition"
             >
               Contact
             </a>
             <a
-              href="/privacy"
+              href="/#"
               className="text-gray-600 hover:text-gray-800 transition"
             >
               Privacy Policy
             </a>
             <a
-              href="/terms"
+              href="/#"
               className="text-gray-600 hover:text-gray-800 transition"
             >
               Terms of Service
